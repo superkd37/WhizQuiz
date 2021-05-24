@@ -38,24 +38,22 @@ This is an online quiz organizing website project, developed using Python's web 
 ### 1. Clone this repository
 ```bash
 git clone https://github.com/superkd37/WhizQuiz.git
-cd lets_quiz
 ```
 
 ### 2. Install the virtual environment pipenv
 ```bash
 pip install pipenv
 ```
+
 ### 3. Create the virtualenv
 ```bash
-## run following command from `lets_quiz` directory
+## run following command from `WhizQuiz` directory
 pipenv shell
 ```
 
 ### 4. Install python packages
 ```bash
-## Activate the virtualenv which you created on the last step
-workon lets_quiz
-cd ..
+cd WhizQuiz
 pip install -r requirements.txt
 ```
 
@@ -64,7 +62,6 @@ pip install -r requirements.txt
 
 ### 6. Run database migrations
 ```bash
-cd lets_quiz
 python manage.py migrate
 ```
 
